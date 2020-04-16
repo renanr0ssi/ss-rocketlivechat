@@ -1,0 +1,28 @@
+---
+  name: "sendMessage"
+  runner_type: "python-script"
+  description: "send a message to a rocketchat livechat module"
+  enabled: true
+  entry_point: "sendMessage.py"
+  parameters:
+    message:
+      type: "string"
+      description: "message to send"
+      required: true
+    visitor_token:
+      type: "string"
+      description: "Token of the livechat visitor"
+      required: true
+    name:
+      type: "string"
+      description: "Name of the livechat visitor"
+      required: true
+    username:
+      type: "string"
+      description: "Username of the livechat visitor"
+      required: true
+    platform:
+      type: "string"
+      description: "Platform used by visitor"
+      required: true
+

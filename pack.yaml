@@ -1,0 +1,12 @@
+---
+  name: rocketchatlivechat
+  description: RocketChat Integration to send messages to LiveChat Module
+  keywords:
+    - telegram
+    - messaging
+    - whatsapp
+    - facebook
+    - rocketchat
+  version: 0.0.1
+  author: Rafael Martins
+  email: rafmartins09@gmail.com

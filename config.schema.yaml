@@ -1,0 +1,6 @@
+---
+  api_url:
+    description: "api url of rocketchat instance"
+    type: "string"
+    secret: false
+    required: true
